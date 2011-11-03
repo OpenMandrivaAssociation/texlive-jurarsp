@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/jurarsp
+# catalog-date 2007-01-08 14:12:54 +0100
+# catalog-license gpl
+# catalog-version 0.52
 Name:		texlive-jurarsp
 Version:	0.52
 Release:	1
@@ -49,6 +55,7 @@ provided.
 #- source
 %doc %{_texmfdistdir}/source/latex/jurarsp/jurarsp.dtx
 %doc %{_texmfdistdir}/source/latex/jurarsp/jurarsp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
