@@ -55,3 +55,17 @@ provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.52-2
++ Revision: 752940
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.52-1
++ Revision: 718764
+- texlive-jurarsp
+- texlive-jurarsp
+- texlive-jurarsp
+- texlive-jurarsp
+
