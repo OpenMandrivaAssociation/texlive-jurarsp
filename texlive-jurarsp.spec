@@ -1,6 +1,6 @@
 Name:		texlive-jurarsp
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Citations of judgements and official documents in (German) juridical documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jurarsp
