@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Citations of judgements and official documents in (German) juridical documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jurarsp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/jurarsp
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jurarsp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jurarsp.doc.r%{version}.tar.xz
